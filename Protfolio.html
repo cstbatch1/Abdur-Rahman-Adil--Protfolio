@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Abdur Rahman Adil</title>
+    <!-- BootStrap CSS link -->
+     <link rel="stylesheet" href="/CSS Folder/bootstrap.css">
+     <!-- Front Awesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- Raw CSS  -->
+      <style>
+        #nav-blog:hover{
+            color: rgb(220, 53, 69);
+        }
+        .bg-color{
+            background-color: rgb(255, 248, 243);
+        }
+        .hero-img:hover{
+            box-shadow: -1px 2px 50px rgb(254, 179, 179);
+        }
+        .about{
+            background-color: rgb(255, 248, 243);
+            padding: 100px;
+            margin-top: 80px;
+        }
+        .card{
+            box-shadow: -1px 5px 20px rgba(0,0,0,0.1);
+            border: none;
+        }
+        .card:hover{
+            transform: scale(1.02);
+            border: 1px solid   rgb(220, 53, 69);
+        }
+        .form-foot , textarea{
+            width: 70%;
+            padding: 10px 20px;
+            border: none;
+            margin-bottom: 15px;
+            font-size: 11px;
+        }
+        .form-foot:focus , textarea:focus{
+            outline: 1px solid red;
+        }
+      
+      </style>
+</head>
+<body>
+        <!-- Header section -->
+        <header class="bg-color">  
+            <!-- Nav Section -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+            <a class="navbar-brand fw-bolder align-items-center" href="#">
+                Abdur <span class="text-danger">Rahman</span> Adil
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link active text-danger" aria-current="page" href="#">Protfolio</a>
+                </li>
+                <li class="nav-item " >
+                    <a class="nav-link " id="nav-blog" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <button class="btn btn-danger px-4 rounded-5">Hire me</button>
+                    </a>
+                </li>
+                
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <!-- Hero Section -->
+        <div class="container mt-3 ">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <h3>Hi I am</h3>
+                    <h1>Abdur Rahman Adil</h1>
+                    <p>Shot what able cold new see hold.Friendly as an betrayed formerly <br>
+                        he. Morning because as to society behaved moments.</p>
+                    <div class="hero-btn d-flex flex-wrap" style="gap: 10px;">
+                        <button class="btn btn-danger px-4 fw-bold ">
+                        <i class="fa-solid fa-download"></i>
+                        Download CV
+                    </button> 
+                    <button class="btn btn-outline-danger px-5 fw-bold">
+                        <i class="fa-solid fa-phone"></i>
+                        Contact
+                    </button>
+                </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-end justify-content-center mt-5 mb-5" >
+                    <img src="/Resource File/Profile Adil.jpg" alt="Hero-Image" class=" rounded-circle border border-3 border-danger hero-img " style="height: 300px; width: auto;">
+                </div>
+            </div>
+        </div>
+        </header>
+
+
+        <!-- Main Section -->
+         <main>
+            <!-- About Section -->
+            <div class="container mt-5 mb-5 " >
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center  about">
+                        <h2 class="fw-bolder mb-4">About Us</h2>
+                        <p class="text-muted">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and <br>
+                            slick websites that provide real value to the end user. Thousands of clients have procured <br>
+                            exceptional resulfs while working with me. Delivering work within time and budget which meets  <br>
+                            clients requirements in our mata.</p>
+                           <div class="row mt-4">
+                            <!-- 1st -->
+                                    <div class="col-md-3 text-center">
+                                        <p class="text-muted fw-bolder mb-1 ">Name:</p>
+                                        <h5 class="fw-bold fs-6">Abdur Rahman</h5>
+                                    </div>
+                            <!-- 2nd -->
+                             <div class="col-md-3 text-center">
+                                <p class="text-muted fw-bolder mb-1 ">E-mail:</p>
+                                <h5 class="fw-bold fs-6">adil005@gmail.com</h5>
+                            </div>
+                             
+                             <!-- 3rd -->
+                              <div class="col-md-3 text-center">
+                                        <p class="text-muted fw-bolder mb-1 ">Date of birth:</p>
+                                        <h5 class="fw-bold fs-6">21 Febuary 2005</h5>
+                                    </div>
+                              <!-- 4th -->
+                               <div class="col-md-3 text-center">
+                                        <p class="text-muted fw-bolder mb-1 ">From:</p>
+                                        <h5 class="fw-bold fs-6">Dhaka,Bangladesh</h5>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- What i do section -->
+             <div class="container mb-5" style="margin-top: 100px;">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center">
+                        <h3 class="fw-bolder mb-4">What I do</h3>
+                        <p class="text-muted ">I have more than 10 years experience building software for clients all over the world. Below is a quick <br>
+                            overview of my main technical skill sets and technologies i use. Want to find out more about my experience? <br>
+                            Check out my online resume and project portfolio.</p>
+                    </div>
+                </div>
+             </div>
+
+             <!-- Card section -->
+           <div class="container">
+            <div class="row">
+                <!-- js -->
+                <div class="col-md-3 mb-4">
+                    <div class="card p-3">
+                        <div class="ps-2 pb-1">
+                            <img src="/Resource File/logo/js logo.png" alt="JS logo" style="height: 45px;">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="cart-title  mb-3 fs-6 fw-bolder mb-2">Vanilla JavaScript</h2>
+                            <p class="text-muted " style="font-size: 12px;">List skill/technologies <br>
+                                here. You can change the <br>
+                                icon above to any of the <br>
+                                1500+ FontAwesome 5 <br>
+                                free icons available. <br>
+                                Aenean commodo ligula <br>
+                                eget dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- node js -->
+                <div class="col-md-3 mb-4">
+                    <div class="card p-3">
+                        <div class="ps-2 pb-1">
+                            <img src="/Resource File/logo/node js.png" alt="Node js logo" style="height: 45px;">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="cart-title  mb-3 fs-6 fw-bolder mb-2">Node.js</h2>
+                            <p class="text-muted " style="font-size: 12px;">List skill/technologies <br>
+                                here. You can change the <br>
+                                icon above to any of the <br>
+                                1500+ FontAwesome 5 <br>
+                                free icons available. <br>
+                                Aenean commodo ligula <br>
+                                eget dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- React -->
+                <div class="col-md-3 mb-4">
+                    <div class="card p-3">
+                        <div class="ps-2 pb-1">
+                            <img src="/Resource File/logo/react logo.png" alt="React logo" style="height: 45px;">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="cart-title  mb-3 fs-6 fw-bolder mb-2">React</h2>
+                            <p class="text-muted " style="font-size: 12px;">List skill/technologies <br>
+                                here. You can change the <br>
+                                icon above to any of the <br>
+                                1500+ FontAwesome 5 <br>
+                                free icons available. <br>
+                                Aenean commodo ligula <br>
+                                eget dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mongo DB -->
+                <div class="col-md-3 mb-4">
+                    <div class="card p-3">
+                        <div class="ps-3 pb-1">
+                            <img src="/Resource File/logo/mongo DB.png" alt="Mono DB logo" style="height: 45px;">
+                        </div>
+                        <div class="card-body">
+                            <h2 class="cart-title  mb-3 fs-6 fw-bolder mb-2">Mongo DB</h2>
+                            <p class="text-muted " style="font-size: 12px;">List skill/technologies <br>
+                                here. You can change the <br>
+                                icon above to any of the <br>
+                                1500+ FontAwesome 5 <br>
+                                free icons available. <br>
+                                Aenean commodo ligula <br>
+                                eget dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+           <!-- Education & Experience Section -->
+            <div class="container " >
+                <h3 class=" text-center fs-2 fw-bold "style=" margin: 100px 0px;">A summary of My Resume</h3>
+                <div class="row justify-content-center">
+                    <!-- Education Section -->
+                    <div class="col-md-6 mb-4">
+                        <h3 class="card-title fw-bolder mb-5">My Education</h3>
+                        <!-- 1st -->
+                        <div class="mb-5  border-bottom">
+                            <h3 class="fs-4 fw-bolder">Master in Computer Engineering</h3>
+                            <h5 class="fs-6 text-mutedfw-light mb-3  ">MAWTS University / 20 - 2017</h5>
+                            <p class="text-muted pb-3">List skill/technologies here. You can change the icon above <br>
+                                to any of the 1500+ FontAwesome 5 free icons available. Aenean <br>
+                                commodo ligula eget dolor.</p>
+                        </div>
+                        <!-- 2nd -->
+                        <div class="mb-5  border-bottom">
+                            <h3 class="fs-4 fw-bolder">Master in Computer Engineering</h3>
+                            <h5 class="fs-6 text-mutedfw-light mb-3  ">MAWTS University / 20 - 2017</h5>
+                            <p class="text-muted pb-3">List skill/technologies here. You can change the icon above <br>
+                                to any of the 1500+ FontAwesome 5 free icons available. Aenean <br>
+                                commodo ligula eget dolor.</p>
+                        </div>
+
+                        <!-- 3rd -->
+                        <div class="mb-3  ">
+                            <h3 class="fs-4 fw-bolder">SSC</h3>
+                            <h5 class="fs-6 text-mutedfw-light mb-3  ">MAWTS University / 20 - 2017</h5>
+                            <p class="text-muted pb-3">List skill/technologies here. You can change the icon above <br>
+                                to any of the 1500+ FontAwesome 5 free icons available. Aenean <br>
+                                commodo ligula eget dolor.</p>
+                        </div>
+                        
+
+                    </div>
+                    <!-- Experience section -->
+                    <div class="col-md-6 mb-4 ">
+                        <h3 class="card-title fw-bolder mb-5">My Experience</h3>
+                        <!-- 1st -->
+                        <div class="mb-5  border-bottom">
+                            <h3 class="fs-4 fw-bolder">Senior Web Font End Developer</h3>
+                            <h5 class="fs-6 text-mutedfw-light mb-3  ">MAWTS University / 20 - 2017</h5>
+                            <p class="text-muted pb-3">List skill/technologies here. You can change the icon above <br>
+                                to any of the 1500+ FontAwesome 5 free icons available. Aenean <br>
+                                commodo ligula eget dolor.</p>
+                        </div>
+                        <!-- 2nd -->
+                        <div class="mb-5  border-bottom">
+                            <h3 class="fs-4 fw-bolder">Juniur Web Font End Developer</h3>
+                            <h5 class="fs-6 text-mutedfw-light mb-3  ">MAWTS University / 20 - 2017</h5>
+                            <p class="text-muted pb-3">List skill/technologies here. You can change the icon above <br>
+                                to any of the 1500+ FontAwesome 5 free icons available. Aenean <br>
+                                commodo ligula eget dolor.</p>
+                        </div>
+
+                        <!-- 3rd -->
+                        <div class="mb-3  ">
+                            <h3 class="fs-4 fw-bolder"> HTML Developer</h3>
+                            <h5 class="fs-6 text-mutedfw-light mb-3  ">MAWTS University / 20 - 2017</h5>
+                            <p class="text-muted pb-3">List skill/technologies here. You can change the icon above <br>
+                                to any of the 1500+ FontAwesome 5 free icons available. Aenean <br>
+                                commodo ligula eget dolor.</p>
+                        </div>
+                        
+
+                    </div>
+
+                    <!-- Button -->
+                    <div class="row justify-content-center mb-5">
+                        <button class="btn btn-danger px-4 fw-bold  " style="width: fit-content; border-radius: 0px;">
+                            <i class="fa-solid fa-download"></i>
+                            Download CV
+                        </button> 
+                    </div>
+
+                    
+
+                </div>
+            </div>
+
+         </main>
+
+         <!-- Footer Section -->
+          <footer class="bg-color">
+          <div class="container" style="margin-top: 100px;padding: 40px;
+          background-color: rgb(255, 248, 243);">
+            <div class="row">
+                <!-- conecct section -->
+                <div class="col-md-6 mb-4 mt-5">
+                    <h3 class="fw-bolder fs-5">Lets Connect</h3>
+                    <p class="text-muted py-2 " style="font-size: 12px;">Please fill out the form on this section to contact with me or call between <br>
+                        9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                        <div class="footer-link ">
+                            <a href="www.facebook.com"><i class="fa-brands fa-facebook-f text-danger me-3"></i></a>
+                            <a href="www.whatsapp.com"><i class="fa-brands fa-whatsapp text-danger me-3"></i></a>
+                            <a href="www.twiter.com"><i class="fa-brands fa-twitter text-danger me-3"></i></a>
+                        </div>
+                </div>
+                <!-- form section -->
+                 <div class="col-md-6 mb-4 mt-5">
+                     <h3 class="fw-bolder fs-5">Let’s Message me</h3>
+                     <form  >
+                        <input type="text" class="form-foot w-100" placeholder="Your Name"> <br>
+                        <input type="email" class="form-foot w-100" placeholder="Your Mail"> <br>
+                        <textarea name="Message" class="from-foot w-100" id="" placeholder="Message" rows="5"></textarea>
+                     </form>
+                     <button class="btn btn-danger px-4 rounded-none  fw-bolder" style="border-radius: 0px;font-size: 12px;">Submit</button>
+                 </div>
+            </div>
+          </div>
+          </footer>
+
+
+    <!-- BootStrap JS link -->
+     <script src="/JS Folder/bootstrap.bundle.js"></script>
+</body>
+</html>
